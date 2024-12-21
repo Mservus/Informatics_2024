@@ -23,8 +23,8 @@ func (d *City) GetCountry() string {
 	return d.Country
 }
 
-func (d *City) SetCountry(age string) {
-	d.Country = age
+func (d *City) SetCountry(country string) {
+	d.Country = country
 }
 
 func RunLab6() {
