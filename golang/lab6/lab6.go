@@ -8,13 +8,11 @@ type City struct {
 }
 
 func NewCity(country string, population int) *City {
-
 	return &City{
 		Country:    country,
 		Population: population,
 	}
 }
-
 func (d *City) Hymn() string {
 	return "Russland veri well!"
 }
@@ -28,7 +26,6 @@ func (d *City) SetCountry(country string) {
 }
 
 func RunLab6() {
-
 	city := NewCity("Reih", 865345)
 	fmt.Println(city.Hymn())
 	fmt.Println(city.GetCountry())
