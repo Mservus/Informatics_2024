@@ -15,8 +15,8 @@ func NewCity(country string, population int) *City {
 	}
 }
 
-func (d *City) Bark() string {
-	return "Woof"
+func (d *City) Hymn() string {
+	return "Russland veri well!"
 }
 
 func (d *City) GetCountry() string {
@@ -30,7 +30,7 @@ func (d *City) SetCountry(age string) {
 func RunLab6() {
 
 	city := NewCity("Reih", 865345)
-	fmt.Println(city.Bark())
+	fmt.Println(city.Hymn())
 	fmt.Println(city.GetCountry())
 	city.SetCountry("Russland")
 	fmt.Println(city.GetCountry())
