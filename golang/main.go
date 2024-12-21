@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Nazarenko Mikhail")
+	fmt.Println("Nazarenko Mihail")
 	lab6.RunLab6()
 	lab4.RunLab4()
 }
